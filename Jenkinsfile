@@ -7,6 +7,11 @@ pipeline{
                 echo "Checkout Stage"
             }
         }
+        stage ('Unit Test'){
+            steps{
+                echo "Unit Stage"
+            }
+        }
         stage ('Build'){
             steps{
                 echo "Build Stage"
